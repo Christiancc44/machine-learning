@@ -1,0 +1,20 @@
+{
+  "name": "MachineLearning",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "tamasfe.even-better-toml",
+        "mechatroner.rainbow-csv",
+        "grapecity.gc-excelviewer",
+        "tomoki1207.pdf"
+      ]
+    }
+  },
+  "postCreateCommand": "echo 'Entorno Machine Learning Listo'"
+}
